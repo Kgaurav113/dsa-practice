@@ -1,0 +1,25 @@
+{
+  "name": "masai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chhavi48/npm-package.git"
+  },
+  "author": "chhavi48@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chhavi48/npm-package/issues"
+  },
+  "homepage": "https://github.com/chhavi48/npm-package#readme",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "uuid": "^8.3.2"
+  },
+  "type": "module"
+}
